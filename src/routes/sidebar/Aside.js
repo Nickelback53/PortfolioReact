@@ -56,6 +56,7 @@ const Aside = ({ image, collapsed,  toggled, handleToggleSidebar, handleTitleCha
             <MenuItem>{intl.formatMessage({ id: 'project1' })}<Link to={'/project/1'} ></Link></MenuItem>
             <MenuItem>{intl.formatMessage({ id: 'project2' })}<Link to={'/project/2'} ></Link></MenuItem>
             <MenuItem>{intl.formatMessage({ id: 'project3' })} <Link to={'/project/3'} ></Link></MenuItem>
+            <MenuItem>{intl.formatMessage({ id: 'project4' })} <Link to={'/project/4'} ></Link></MenuItem>
           </SubMenu>
         </Menu>
 

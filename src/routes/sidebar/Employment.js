@@ -26,7 +26,7 @@ export default function Employment() {
                 <h2 >{intl.formatMessage({ id: 'employment' })}</h2>
                 <Grid container spacing={3}>
 
-                    <Grid item xs={12}>
+                    <Grid item xs={12} md={12} lg={12}>
                         <Paper sx={{
                             p: 2,
                             display: 'flex',
@@ -36,7 +36,7 @@ export default function Employment() {
                         }}>
                             <div class="EmploymentContentContainer">
                                 <Grid container spacing={1}>
-                                    <Grid item xs={12} md={12} lg={6} sx={{ display: 'grid' }} >
+                                    <Grid item xs={12} md={12} lg={12} sx={{ display: 'grid' }} >
 
                                         <Box sx={{
                                             p: 1,
